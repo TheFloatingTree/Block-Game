@@ -1,0 +1,104 @@
+{
+    "id": "334318ef-3ff2-45ad-a40f-cbe7ad96099e",
+    "bundles": [],
+    "singletonComponents": {
+        "components": [
+            {
+                "componentType": "SingletonThreeScene",
+                "data": {}
+            },
+            {
+                "componentType": "SingletonThreeCamera",
+                "data": {
+                    "fov": 25,
+                    "near": 0.01,
+                    "far": 10,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "rx": 0,
+                    "ry": 0,
+                    "rz": 0
+                }
+            },
+            {
+                "componentType": "SingletonGame",
+                "data": {}
+            }
+        ],
+        "id": "82074a51-03ad-4ca6-aa99-338c4cc89d75"
+    },
+    "entities": [
+        {
+            "components": [
+                {
+                    "componentType": "ThreeDirectionalLight",
+                    "data": {
+                        "color": "404040",
+                        "intensity": 1,
+                        "x": 0,
+                        "y": 10,
+                        "z": 0
+                    }
+                }
+            ],
+            "id": "8c53dfa1-bba1-413d-9b0f-499d980b2c96"
+        },
+        {
+            "components": [
+                {
+                    "componentType": "ThreeAmbientLight",
+                    "data": {
+                        "color": "404040",
+                        "intensity": 3
+                    }
+                }
+            ],
+            "id": "8396a074-2e95-4b44-8555-700bcdf16805"
+        },
+        {
+            "components": [
+                {
+                    "componentType": "ThreePointLight",
+                    "data": {
+                        "color": "404040",
+                        "intensity": 8,
+                        "distance": 100,
+                        "decay": 10,
+                        "x": 10,
+                        "y": 10,
+                        "z": 0
+                    }
+                }
+            ],
+            "id": "698b80cc-cb59-44fa-888b-be0480281a7d"
+        },
+        {
+            "components": [
+                {
+                    "componentType": "ThreeFog",
+                    "data": {
+                        "color": "FFFFFF",
+                        "near": 4,
+                        "far": 8
+                    }
+                }
+            ],
+            "id": "6f049cf6-1fc0-46fe-b5c2-7ad1187e583f"
+        }
+    ],
+    "systems": [
+        {
+            "systemType": "ThreeRenderer"
+        },
+        {
+            "systemType": "CameraController"
+        },
+        {
+            "systemType": "BlockManager"
+        },
+        {
+            "systemType": "Setup"
+        }
+    ]
+}

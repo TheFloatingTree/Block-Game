@@ -1,0 +1,14 @@
+{
+    "id": "749b0f5c-68d7-45b0-8e2a-dfb4adf9b8e2",
+    "bundles": [],
+    "singletonComponents": {
+        "components": [],
+        "id": "19f8d080-b986-45f4-a3a9-373f9be29e43"
+    },
+    "entities": [],
+    "systems": [
+        {
+            "systemType": "StartSceneSetup"
+        }
+    ]
+}

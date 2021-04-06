@@ -1,0 +1,19 @@
+{
+    "imagePath": "image/",
+    "soundPath": "sound/",
+    "dataPath": "data/",
+    "fontPath": "font/",
+    "bundles": {
+        "default": [
+            "block.scene.json",
+            "start.scene.json",
+            "clave14.wav",
+            "clave15.wav",
+            "clave16.wav",
+            "clave18.wav",
+            "snap.wav",
+            "fail.wav",
+            "wind_loop.wav"
+        ]
+    }
+}

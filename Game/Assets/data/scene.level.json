@@ -1,0 +1,1 @@
+{"id":"8a74dbbd-a091-4367-847d-0f2164d165c7","bundles":[],"singletonComponents":{"components":[],"id":"a9aac620-1690-45e0-9221-5e374cea4ada"},"entities":[{"components":[{"componentType":"Position","data":{"x":0,"y":0}}],"id":"f8116ded-ec64-4f63-a0d8-3584b175eb1c"}],"systems":[{"systemType":"TestSystem"}]}
